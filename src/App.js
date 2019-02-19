@@ -7,10 +7,7 @@ import Table from './Table';
 
 class App extends Component {
   state = {
-    users: [{
-      "name":"",
-      "job":"",
-    }],
+    users: [],
   }
   handleSubmit = data =>{
     console.log("handling");
