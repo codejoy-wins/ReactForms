@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Form from './Form';
 import Table from './Table';
+import Footer from './Footer';
 // handle submit
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        < Footer />
       </div>
     );
   }
